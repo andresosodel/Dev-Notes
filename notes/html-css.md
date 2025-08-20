@@ -1,21 +1,4 @@
-# HTML & CSS · Smoljames Course Notes
-
-#### The ultimate guide to *HTML & CSS* 🔥
-
-HTML & CSS are the backbone of the internet, and almost every website out there can be boiled down into some unique mutation of the two. While relatively simple to learn, together they can really pack a powerful punch.
-
-They're also the perfect entry point for any new or beginner developer to start learning and get their hands dirty. Master these, and you'll have the ultimate foundation for your programming journey.
-
-> *The goal is to become familiar with the material and understand it, not to memorize it. All great developers have reference material they regularly refer to and this resource will always be here should you need it :)*
-
-## Resources
-
-Here are some links you might find helpful!
-
-* [**The Internet Is Hard**](https://internetingishard.netlify.app/)
-* [**Learn HTML & CSS**](https://youtu.be/70T2GMDKl6M)
-* [**Discord Channel**](https://discord.gg/BYr6gujs4k)
-* [**Learn to Code Roadmap**](https://www.smoljames.com/roadmap)
+# HTML & CSS · Smoljames Modified Notes
 
 ## Table of Contents
 
@@ -24,7 +7,6 @@ Here are some links you might find helpful!
     - [1.2 Initializing an HTML Document](#12-initializing-an-html-document)
     - [1.3 HTML Tags](#13-html-tags)
     - [1.4 HTML Tag Functionalities](#14-html-tag-functionalities)
-    - [1.5 Code Commenting in HTML](#15-code-commenting-in-html)
     - [1.6 HTML Tag Attributes](#16-html-tag-attributes)
     - [1.7 A Basic Singlepage Website](#17-a-basic-singlepage-website)
     - [1.8 Building Multipage Applications](#18-building-multipage-applications)
@@ -46,7 +28,7 @@ To get started coding in HTML, we first need to create an HTML document. We can 
 
 **index.html**
 
-This file should be located within a folder that is know as your *project directory*. We can have multiple HTML files within the project directory, where each file can be used as a subroute for our HTML webpage. 
+This file should be located within a folder that is known as your *project directory*. We can have multiple HTML files within the project directory, where each file can be used as a subroute for our HTML webpage. 
 
 The default HTML page will always be the one named *index.html*. An example project directory is as follows:
 
@@ -160,23 +142,12 @@ Typically the containerization of contents is determined by the relatability of 
 * ```<a>link text</a>``` 
     * anchor tags are for links to internal or external web pages
 
-### 1.5 Code Commenting in HTML
-
-We can create invisible notes in our HTML code that only developers in the code base can see. These will not appear on the web page. 
-
-> *Code comments cannot be nested (one contained within another).*
-
-To create a code comment, simple wrap your desired note or comment within the following syntax:
-
-```
-<!-- COMMENT GOES IN HERE & YOU CAN SAY WHATEVER YOU LIKE! EVEN ADD EMOJIS 🔥 -->
-```
 
 ### 1.6 HTML Tag Attributes
 
-Attributes allow us to add some magic to our HTML tags. As you might have guess, they're used to further describe the meaning or functionality of a tag, in a similar way that a person might have blue eyes as an attribute. Attributes can be added to any opening tag and are added to the opening tag as follows:
+Attributes allow us to add some magic to our HTML tags. As you might have guessed, they're used to further describe the meaning or functionality of a tag, in a similar way that a person might have blue eyes as an attribute. Attributes can be added to any opening tag and are added to the opening tag as follows:
 
-```txt
+```
 <div INSERT_ATTRIBUTE(S)_HERE > . . . </div>
 ```
 
@@ -189,8 +160,6 @@ When a user hovers their mouse over this division, which in the webpage just loo
     <p>I am james</p>
 </div>
 ```
-
-When a user hovers their mouse over this division, which in the webpage just looks like some text, a little popup will display with the text 'about me', until the user moves their mouse away.
 
 #### 1.6.1 Preset vs Custom Attributes
 
@@ -214,12 +183,12 @@ Here are some of the most common examples where the value assigned to the attrib
     <input value="current_value" onChange="function_to_store_new_value" placeholder="default_value"/>
     ```
 2. Preset attributes (generic)
-    - **id=""** assigns a *unique* id to an element
-    - **class=""** assigns a class to an element (used for styling in CSS)
+    - **id=""** assigns a *unique* id to an element. Used for navigation.
+    - **class=""** assigns a class to an element (used for styling in CSS).
     - **style=""** directly assigns a style such as `color:green;`
-    - **title=""** as described above
+    - **title=""** as described above.
 3. Custom attribute example
-    - **notifications=""** could be set ="4" if a user had 4 notifications
+    - **notifications=""** could be set ="4" if a user had 4 notifications.
 
 ### 1.7 A Basic Singlepage Website
 
@@ -476,7 +445,7 @@ Adding the *>* key now makes the selector select only the spans that are direct 
 }
 ```
 
-This example can be intepreted as -> 'Select any span the is a direct descendant within an h1 tag, that itself is anywhere within an element with the class of *headerText*. This combination selection can be incredible time saving when use appropriately and means we don't have to add classes to absolutely every tag in our HTML document.
+This example can be intepreted as -> 'Select any span that is a direct descendant within an h1 tag, that itself is anywhere within an element with the class of *headerText*. This combination selection can be incredible time saving when use appropriately and means we don't have to add classes to absolutely every tag in our HTML document.
 
 #### 2.5.1 Event Selectors
 
@@ -555,16 +524,5 @@ And just like that, we've got a red dot that suggests we have 4 unread notificat
 
 ### 2.6 TailwindCSS
 
-And with that all said and done, it's now graduation time!!! 🎉🥳🔥 You're officially an HTML & CSS pro :P
-
-To take the next step to becoming a hyper 10x developer, it's important to put your skills to good use, and I highly recommend doing so with [this video ->](https://youtu.be/70T2GMDKl6M)
-
 Also, there's a way to make coding CSS even faster so that you can design and build webpages at mindboggling speeds. The secret is to use TailwindCSS, which is a very easy adaptation to make once you understand CSS itself. Their documentation is phenomenal and also tells you exactly how you can integrate tailwindCSS into any project you choose to venture forth upon. Link to their documentation is [here ->](https://tailwindcss.com/docs)
 
-## Final Words
-
-I hope that these notes give you the knowledge you need to excel as an HTML & CSS developer! If you've enjoyed the repo, please consider giving it a ***star ⭐️***, and be sure to check out the other guides available so you can become the ultimate developer today :P
-
-Cheers,
-
-James

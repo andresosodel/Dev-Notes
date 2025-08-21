@@ -44,10 +44,10 @@ If we take a look at the code displayed above, there's a few key observations wo
 
 1. **<Tags>**
 
-    - ``` HTML 
+    ``` HTML 
     <div> child contents </div>```
     
-    - self-closing tag ``` HTML
+    self-closing tag ``` HTML
     <input />```
 
 2. **Semantic** or **Non-Semantic**. Semantic tags imply more meaning about the subcontents that non-semantic tags. Some examples of semantic tags are as follows:

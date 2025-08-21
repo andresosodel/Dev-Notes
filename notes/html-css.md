@@ -73,7 +73,7 @@ If we take a look at the code displayed above, there's a few key observations wo
 Typically the containerization of contents is determined by the relatability of the content. If some information pertains to some other, we'll likely contain them together. Equally the relation might be determined by styling requirements; i.e. this element is spaced or styled depending on another. The primary container tags are as follows:
 
 - **Semantic** Container Tags
-
+```
     * `<head></head> `
 
         - contains meta information about the HTML web page
@@ -125,6 +125,7 @@ Typically the containerization of contents is determined by the relatability of 
     * `<ul><li>lista item within an unordered list</li></ul> `
 
         - unordered list (ul) contains 1 or more list items
+        ```
 
 - **Non-semantic** Container Tags
 
@@ -138,9 +139,9 @@ Typically the containerization of contents is determined by the relatability of 
 
 - **Typography Tags** are for all things text related. Most of us are familiar with the typography options in a word document and HTML isn't so different. We have 6 tiers of heading typography tags - 
 
-    - Headings: `<h1>Text</h1>` (largest) through `<h6>Text</h6>` (smallest).
+    - Headings: `<h1>text</h1>` (largest) through `<h6>text</h6>` (smallest).
 
-    - `<p>Textp</p>` for paragraphs
+    - `<p>textp</p>` for paragraphs
 
 **Miscellaneous Tags** concern themselves with the workings of all other HTML tag functionalities. There's loads of them but only 20% of them do 80% of the work. You can read more about them [here](https://www.w3schools.com/tags/) but the main ones are as follows:
 
@@ -148,7 +149,7 @@ Typically the containerization of contents is determined by the relatability of 
 
     - for user inputs such as text, dates, files and so on (self-closing)
 
-* `<textarea>default text...</textarea>`
+* `<textarea>text</textarea>`
 
     - for larger text inputs
 

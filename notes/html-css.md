@@ -526,3 +526,4 @@ And just like that, we've got a red dot that suggests we have 4 unread notificat
 
 Also, there's a way to make coding CSS even faster so that you can design and build webpages at mindboggling speeds. The secret is to use TailwindCSS, which is a very easy adaptation to make once you understand CSS itself. Their documentation is phenomenal and also tells you exactly how you can integrate tailwindCSS into any project you choose to venture forth upon. Link to their documentation is [here ->](https://tailwindcss.com/docs)
 
+### 2.7 Flexbox

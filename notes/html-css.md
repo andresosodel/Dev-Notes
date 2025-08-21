@@ -74,19 +74,19 @@ Typically the containerization of contents is determined by the relatability of 
 
 - **Semantic** Container Tags
 ```
-    * `<head></head> `
+    * <head></head> 
 
         - contains meta information about the HTML web page
 
         - *single-use*
 
-    * `<body>all visable page contents</body> `
+    * <body>all visable page contents</body> 
 
         - contains all the visible page contents
 
         - *single-use*
 
-    * `<header></header>`
+    * <header></header>
 
         - contains contents that creates the page header (logo, navigation links etc...)
 
@@ -125,7 +125,7 @@ Typically the containerization of contents is determined by the relatability of 
     * `<ul><li>lista item within an unordered list</li></ul> `
 
         - unordered list (ul) contains 1 or more list items
-        ```
+```
 
 - **Non-semantic** Container Tags
 

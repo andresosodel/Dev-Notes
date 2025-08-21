@@ -43,24 +43,23 @@
 If we take a look at the code displayed above, there's a few key observations worth taking note of.
 
 1. **<Tags>**
-
-    ``` HTML 
-    <div> child contents </div>```
     
-    self-closing tag ``` HTML
-    <input />```
+    `<div> child contents </div>`
+    
+    self-closing tag:
+
+    `<input />`
 
 2. **Semantic** or **Non-Semantic**. Semantic tags imply more meaning about the subcontents that non-semantic tags. Some examples of semantic tags are as follows:
 
     - **Single use** 
-
-        ``` HTML 
-        <head> · <body> · <header> · <nav> · <footer> · <main>```
+        
+        `<head> · <body> · <header> · <nav> · <footer> · <main>`
 
     - **Multi use** 
-
-        ``` HTML
-        <section> · <details> · <summary> · <aside> · <time>```
+        
+        `<section> · <details> · <summary> · <aside> · <time>`
+    
 
 
 3. Serve 1 of 3 general purposes:
@@ -75,99 +74,99 @@ Typically the containerization of contents is determined by the relatability of 
 
 - **Semantic** Container Tags
 
-    * <head></head> 
+    * `<head></head> `
 
         - contains meta information about the HTML web page
 
         - *single-use*
 
-    * <body>all visable page contents</body> 
+    * `<body>all visable page contents</body> `
 
         - contains all the visible page contents
 
         - *single-use*
 
-    * <header></header>
+    * `<header></header>`
 
         - contains contents that creates the page header (logo, navigation links etc...)
 
         - *single-use*
 
-    * <nav></nav> 
+    * `<nav></nav> `
 
         - contains all the page navigation links
 
         - *single-use*
 
-    * <main></main>
+    * `<main></main>`
 
         - contains the main page content (everything not in header or footer)
 
         - *single-use*
 
-    * <footer></footer> 
+    * `<footer></footer> `
 
         - contains the footer info (contact details, privacy policy, terms of use etc.)
 
         - *single-use*
 
-    * <aside>highlighted text</aside> 
+    * `<aside>highlighted text</aside> `
 
         - contains information for side navigation bar
 
-    * <form><input/></form> 
+    * `<form><input/></form> `
 
         - contains form information/inputs/textareas for user interaction
 
-    * <section>highlighted text</section> 
+    * `<section>highlighted text</section>` 
 
         - contains large generally-related sections of contents
 
-    * <ul><li>lista item within an unordered list</li></ul> 
+    * `<ul><li>lista item within an unordered list</li></ul> `
 
         - unordered list (ul) contains 1 or more list items
 
 - **Non-semantic** Container Tags
 
-    * <div></div>
+    * `<div></div>`
 
         - the most commonly used container tag
 
-    * <span>Click me</span> 
+    * `<span>Click me</span> `
 
         - used for special inline styling of certain contents
 
 - **Typography Tags** are for all things text related. Most of us are familiar with the typography options in a word document and HTML isn't so different. We have 6 tiers of heading typography tags - 
 
-    - Headings: <h1>Text</h1> (largest) through <h6>Text</h6> (smallest).
+    - Headings: `<h1>Text</h1>` (largest) through `<h6>Text</h6>` (smallest).
 
-    - <p>Textp</p> for paragraphs
+    - `<p>Textp</p>` for paragraphs
 
 **Miscellaneous Tags** concern themselves with the workings of all other HTML tag functionalities. There's loads of them but only 20% of them do 80% of the work. You can read more about them [here](https://www.w3schools.com/tags/) but the main ones are as follows:
 
-* <input/>
+* `<input/>`
 
     - for user inputs such as text, dates, files and so on (self-closing)
 
-* <textarea>default text...</textarea>
+* `<textarea>default text...</textarea>`
 
     - for larger text inputs
 
-* <img/>
+* `<img/>`
 
     - for img displays
 
-* <mark>highlighted text</mark> 
+* `<mark>highlighted text</mark> `
 
     - for text highlights/emphasis
 
-* <details></details>
+* `<details></details>`
 
     - for text open/close models
 
-* <button>Click me</button> 
+* `<button>Click me</button> `
 
-* <a>link text</a> 
+* `<a>link text</a> `
 
     - anchor tags are for links to internal or external web pages
 
